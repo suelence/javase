@@ -7,7 +7,7 @@
 		5、假设栈的默认初始化容量是10.（请注意无参数构造方法的编写方式。） */
 public class MyStack {
     private Object[] arr;
-    private int index;  //栈帧
+    private int index; // 栈帧
 
     // Constructor
     public MyStack() {
@@ -16,7 +16,7 @@ public class MyStack {
     }
 
     public void push(Object obj) {
-        if (index >= arr.length-1) {
+        if (index >= arr.length - 1) {
             System.out.println("栈已满，压栈失败！");
             return;
 
